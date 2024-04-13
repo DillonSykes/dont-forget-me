@@ -26,6 +26,8 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import Details from './src/screens/details/Details.tsx';
+import {People} from './src/types';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -64,9 +66,18 @@ function App(): React.JSX.Element {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
+  const people: [People] = [
+    {
+      id: 'SomeId',
+      name: 'Dillon Sykes',
+      approxAge: 27,
+      gender: 'Male',
+    },
+  ];
+
   return (
     <SafeAreaView>
-      <RoundedButton text={'New Record'} />
+      <Details people={people} />
     </SafeAreaView>
   );
 }
