@@ -1,18 +1,33 @@
 import { Location } from '../../../types';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { ListItem } from '@rneui/themed';
+import FontAwesome from 'react-native-vector-icons/FontAwesome.js';
+
 import React from 'react';
+import { Icon } from '@rneui/base';
 
 const LocationListItem = (props: LocationListItemProps) => {
   const location = props.location;
   const item_key = props.key;
   return (
-    <View>
-      <View style={styles.information} key={item_key}>
-        <Text style={styles.name}>{location.name}</Text>
-        <Text style={styles.location}>{location.address}</Text>
-      </View>
-      <View></View>
-    </View>
+    // <View>
+    //   <View style={styles.information} key={item_key}>
+    //     <Text style={styles.name}>{location.name}</Text>
+    //     <Text style={styles.location}>{location.address}</Text>
+    //   </View>
+    //   <View></View>
+    // </View>
+    <TouchableOpacity>
+      <ListItem key={item_key} style={styles.information}>
+        <ListItem.Content>
+          <ListItem.Title style={styles.name}>{location.name}</ListItem.Title>
+          <ListItem.Title style={styles.location}>
+            {location.address}
+          </ListItem.Title>
+          <ListItem></ListItem>
+        </ListItem.Content>
+      </ListItem>
+    </TouchableOpacity>
   );
 };
 
@@ -21,20 +36,13 @@ const styles = StyleSheet.create({
     fontSize: 30,
   },
   location: {
-    // marginLeft: 'auto',
-    // marginTop: 'auto',
     fontSize: 10,
+    marginRight: '50%',
   },
   information: {
-    display: 'flex',
-    padding: 10,
-    flexDirection: 'column',
     borderBottomColor: 'grey',
     borderTopColor: 'grey',
-    borderRightColor: 'white',
-    borderLeftColor: 'white',
-    borderBottomWidth: 5,
-    borderTopWidth: 1,
+    borderWidth: 1,
   },
 });
 

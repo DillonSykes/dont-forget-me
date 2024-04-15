@@ -37,6 +37,25 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = app/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = app/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-app-appTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-app-appTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		290047162BCCB703002F73EF /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		290047172BCCB703002F73EF /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		290047182BCCB703002F73EF /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		290047192BCCB703002F73EF /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		2900471A2BCCB703002F73EF /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		2900471B2BCCB703002F73EF /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		2900471C2BCCB703002F73EF /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		2900471D2BCCB703002F73EF /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		2900471E2BCCB703002F73EF /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		2900471F2BCCB703002F73EF /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		290047202BCCB703002F73EF /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome6_Regular.ttf"; sourceTree = "<group>"; };
+		290047212BCCB703002F73EF /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		290047222BCCB703002F73EF /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		290047232BCCB703002F73EF /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		290047242BCCB703002F73EF /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome6_Brands.ttf"; sourceTree = "<group>"; };
+		290047252BCCB703002F73EF /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		290047262BCCB703002F73EF /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome6_Solid.ttf"; sourceTree = "<group>"; };
+		290047272BCCB703002F73EF /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		290047282BCCB703002F73EF /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app.debug.xcconfig"; path = "Target Support Files/Pods-app/Pods-app.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app.release.xcconfig"; path = "Target Support Files/Pods-app/Pods-app.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-app-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app-appTests.debug.xcconfig"; path = "Target Support Files/Pods-app-appTests/Pods-app-appTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +105,7 @@
 		13B07FAE1A68108700A75B9A /* app */ = {
 			isa = PBXGroup;
 			children = (
+				290044B22BCCB63D002F73EF /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -94,6 +114,32 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = app;
+			sourceTree = "<group>";
+		};
+		290044B22BCCB63D002F73EF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				290047212BCCB703002F73EF /* AntDesign.ttf */,
+				2900471F2BCCB703002F73EF /* Entypo.ttf */,
+				290047162BCCB703002F73EF /* EvilIcons.ttf */,
+				2900471B2BCCB703002F73EF /* Feather.ttf */,
+				2900471C2BCCB703002F73EF /* FontAwesome.ttf */,
+				2900471D2BCCB703002F73EF /* FontAwesome5_Brands.ttf */,
+				290047182BCCB703002F73EF /* FontAwesome5_Regular.ttf */,
+				290047252BCCB703002F73EF /* FontAwesome5_Solid.ttf */,
+				290047242BCCB703002F73EF /* FontAwesome6_Brands.ttf */,
+				290047202BCCB703002F73EF /* FontAwesome6_Regular.ttf */,
+				290047262BCCB703002F73EF /* FontAwesome6_Solid.ttf */,
+				2900471A2BCCB703002F73EF /* Fontisto.ttf */,
+				290047222BCCB703002F73EF /* Foundation.ttf */,
+				290047192BCCB703002F73EF /* Ionicons.ttf */,
+				2900471E2BCCB703002F73EF /* MaterialCommunityIcons.ttf */,
+				290047172BCCB703002F73EF /* MaterialIcons.ttf */,
+				290047272BCCB703002F73EF /* Octicons.ttf */,
+				290047282BCCB703002F73EF /* SimpleLineIcons.ttf */,
+				290047232BCCB703002F73EF /* Zocial.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -472,6 +518,57 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket",
+					"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion",
+					"${PODS_CONFIGURATION_BUILD_DIR}/Flipper",
+					"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-Boost-iOSX",
+					"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-Fmt",
+					"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-Folly",
+					"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-PeerTalk",
+					"${PODS_CONFIGURATION_BUILD_DIR}/FlipperKit",
+					"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly",
+					"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Codegen",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-FabricImage",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-ImageManager",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Mapbuffer",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAppDelegate",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTFabric",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-debug",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-hermes",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-jserrorhandler",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-logger",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-nativeconfig",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-perflogger",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-rendererdebug",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-runtimescheduler",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-utils",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon",
+					"${PODS_CONFIGURATION_BUILD_DIR}/SocketRocket",
+					"${PODS_CONFIGURATION_BUILD_DIR}/Yoga",
+					"${PODS_CONFIGURATION_BUILD_DIR}/fmt",
+					"${PODS_CONFIGURATION_BUILD_DIR}/glog",
+					"${PODS_CONFIGURATION_BUILD_DIR}/libevent",
+				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -497,6 +594,51 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket",
+					"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion",
+					"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly",
+					"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Codegen",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-FabricImage",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-ImageManager",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Mapbuffer",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAppDelegate",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTFabric",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-debug",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-hermes",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-jserrorhandler",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-logger",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-nativeconfig",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-perflogger",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-rendererdebug",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-runtimescheduler",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-utils",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon",
+					"${PODS_CONFIGURATION_BUILD_DIR}/SocketRocket",
+					"${PODS_CONFIGURATION_BUILD_DIR}/Yoga",
+					"${PODS_CONFIGURATION_BUILD_DIR}/fmt",
+					"${PODS_CONFIGURATION_BUILD_DIR}/glog",
+					"${PODS_CONFIGURATION_BUILD_DIR}/libevent",
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
@@ -580,10 +722,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -651,10 +790,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

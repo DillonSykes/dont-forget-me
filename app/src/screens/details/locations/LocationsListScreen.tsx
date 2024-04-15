@@ -1,7 +1,8 @@
 import React from 'react';
-import {SafeAreaView, ScrollView, StyleSheet, Text, View} from 'react-native';
+import { SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { SearchBar } from '@rneui/themed';
 
-import {Location, Person} from '../../../types';
+import { Location, Person } from '../../../types';
 import LocationListItem from './LocationItem.tsx';
 
 export const LocationsListScreen = (props: DetailsProp) => {
@@ -18,6 +19,7 @@ export const LocationsListScreen = (props: DetailsProp) => {
             <LocationListItem location={location} key={index} />
           ))}
         </ScrollView>
+        <SearchBar platform={'ios'} />
       </View>
     </SafeAreaView>
   );

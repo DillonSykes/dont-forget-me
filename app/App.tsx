@@ -6,10 +6,10 @@
  */
 
 import React from 'react';
-import {SafeAreaView, StyleSheet} from 'react-native';
+import { SafeAreaView, StyleSheet } from 'react-native';
 
-import {Location, Person} from './src/types';
-import {LocationsListScreen} from './src/screens/details/locations/LocationsListScreen.tsx';
+import { Location, Person } from './src/types';
+import { LocationsListScreen } from './src/screens/details/locations/LocationsListScreen.tsx';
 
 const people: Person[] = [
   {
@@ -21,7 +21,7 @@ const people: Person[] = [
     gender: 'Male',
   },
 ];
-const locations: Location[] = [
+const locations: any[] = [
   {
     id: 'someLocationsId_0',
     name: 'Home',
