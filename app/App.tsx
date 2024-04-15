@@ -6,99 +6,54 @@
  */
 
 import React from 'react';
-import type {PropsWithChildren} from 'react';
-import {
-  Button,
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
-import RoundedButton from './src/components/buttons/RoundButtons.tsx';
+import {SafeAreaView, StyleSheet} from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-import Details from './src/screens/details/Details.tsx';
-import {People} from './src/types';
+import {Location, Person} from './src/types';
+import {LocationsListScreen} from './src/screens/details/locations/LocationsListScreen.tsx';
 
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
-
-function Section({children, title}: SectionProps): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-  return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
-  );
-}
+const people: Person[] = [
+  {
+    id: 'SomeId',
+    first_name: 'Dillon',
+    last_name: 'Sykes',
+    full_name: 'Dillon Sykes',
+    approxAge: 27,
+    gender: 'Male',
+  },
+];
+const locations: Location[] = [
+  {
+    id: 'someLocationsId_0',
+    name: 'Home',
+    address: '00000 E Test St. Richmond VA 23223',
+    notify: false,
+  },
+  {
+    id: 'someLocationsId_1',
+    name: 'Gym',
+    address: '3600 W Broad St. Richmond VA 23223',
+    notify: false,
+  },
+  {
+    id: 'someLocationsId_2',
+    name: 'Work',
+    address: '22222 E Test St. Richmond VA 23223',
+    notify: false,
+  },
+  {
+    id: 'someLocationsId_3',
+    name: 'MTC',
+    address: '33333 E Test St. Midlothian VA 23223',
+    notify: false,
+  },
+];
 
 function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
-  const people: [People] = [
-    {
-      id: 'SomeId',
-      name: 'Dillon Sykes',
-      approxAge: 27,
-      gender: 'Male',
-    },
-  ];
-
   return (
     <SafeAreaView>
-      <Details people={people} />
+      <LocationsListScreen people={people} locations={locations} />
     </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
 
 export default App;
