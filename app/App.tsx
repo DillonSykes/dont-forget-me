@@ -5,12 +5,14 @@
  * @format
  */
 
-import React from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
-
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Location, Person } from './src/types';
 import { LocationsListScreen } from './src/screens/details/locations/LocationsListScreen.tsx';
 
+const home_location_id = 'homeLocationId';
 const people: Person[] = [
   {
     id: 'SomeId',
@@ -19,11 +21,12 @@ const people: Person[] = [
     full_name: 'Dillon Sykes',
     approxAge: 27,
     gender: 'Male',
+    location_id: home_location_id,
   },
 ];
-const locations: any[] = [
+const locations: Location[] = [
   {
-    id: 'someLocationsId_0',
+    id: home_location_id,
     name: 'Home',
     address: '00000 E Test St. Richmond VA 23223',
     notify: false,
@@ -37,7 +40,7 @@ const locations: any[] = [
   {
     id: 'someLocationsId_2',
     name: 'Work',
-    address: '22222 E Test St. Richmond VA 23223',
+    address: '22222 N Test St. Richmond VA 23223',
     notify: false,
   },
   {
@@ -47,12 +50,24 @@ const locations: any[] = [
     notify: false,
   },
 ];
-
+const Stack = createNativeStackNavigator();
+const listScreenProps = {
+  people: people,
+  locations: locations,
+};
 function App(): React.JSX.Element {
   return (
-    <SafeAreaView>
-      <LocationsListScreen people={people} locations={locations} />
-    </SafeAreaView>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Locations">
+          {() => (
+            <SafeAreaView>
+              <LocationsListScreen {...listScreenProps} />
+            </SafeAreaView>
+          )}
+        </Stack.Screen>
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 

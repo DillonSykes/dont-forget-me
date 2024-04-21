@@ -43,6 +43,7 @@ const styles = StyleSheet.create({
     borderBottomColor: 'grey',
     borderTopColor: 'grey',
     borderWidth: 1,
+    borderTopWidth: 0,
   },
 });
 

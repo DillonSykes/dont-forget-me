@@ -5,4 +5,5 @@ export type Person = {
   last_name: string | null;
   gender: string;
   approxAge: number;
+  location_id: string;
 };

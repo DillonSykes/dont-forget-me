@@ -5,5 +5,5 @@ export type Location = {
   name: string;
   address: string | null;
   notify: boolean; // hoping this can be a flag to turn on and off notifications
-  people: Person[];
+  // people: Person[];
 };

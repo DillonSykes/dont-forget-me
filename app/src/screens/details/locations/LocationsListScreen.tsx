@@ -11,9 +11,9 @@ export const LocationsListScreen = (props: DetailsProp) => {
   return (
     <SafeAreaView>
       <View style={styles.container}>
-        <View style={styles.header}>
-          <Text style={styles.headerText}>Locations</Text>
-        </View>
+        {/*<View style={styles.header}>*/}
+        {/*  <Text style={styles.headerText}>Locations</Text>*/}
+        {/*</View>*/}
         <ScrollView>
           {locations.map((location: Location, index: number) => (
             <LocationListItem location={location} key={index} />
